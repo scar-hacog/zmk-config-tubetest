@@ -10,11 +10,11 @@
             bindings = <
                 &kp K     &kp N     &kp H     &kp K
                 &kp E     &kp E     &kp R     &kp A
-                &kp N     &kp T     &mo (bt)     &kp T
+                &kp N     &kp T     &mo bt_layer     &kp T
             >;
         };
 
-        bt {
+        bt_layer {
             bindings = <
                 &none            &none            &bootloader            &none
                 &none            &none            &bt BT_CLR             &none
