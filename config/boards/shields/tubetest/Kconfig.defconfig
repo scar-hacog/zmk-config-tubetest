@@ -2,5 +2,6 @@ if SHIELD_TUBETEST
 
 config ZMK_KEYBOARD_NAME
     default "tubetest"
-    
+
+CONFIG_ZMK_BLE=y
 endif
