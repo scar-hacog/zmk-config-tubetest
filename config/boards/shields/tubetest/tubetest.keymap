@@ -10,7 +10,7 @@
             bindings = <
                 &kp K     &kp N     &kp H     &kp K
                 &kp E     &kp E     &kp R     &kp A
-                &kp N     &kp T     &mo bt_layer     &kp T
+                &kp N     &kp T     &mo 1     &kp T
             >;
         };
 
