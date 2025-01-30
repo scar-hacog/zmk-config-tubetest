@@ -8,15 +8,15 @@
 
         default_layer {
             bindings = <
-                &kp K     &kp N     &kp H     &kp K
+                &tog 1     &kp N     &kp H     &kp K
                 &kp E     &kp E     &kp R     &kp A
-                &kp N     &kp T     &tog 1     &kp T
+                &kp N     &kp T     &kp O     &kp T
             >;
         };
 
         bt_layer {
             bindings = <
-                &none            &none            &bootloader            &none
+                &tog 0            &none            &bootloader            &none
                 &none            &none            &bt BT_CLR             &none
                 &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2           &none
             >;
