@@ -4,5 +4,6 @@ config ZMK_KEYBOARD_NAME
     default "tubetest"
 
 CONFIG_ZMK_BLE=y
+CONFIG_ZMK_BLE_BONDABLE=y
 CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
 endif
